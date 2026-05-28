@@ -37,7 +37,7 @@ export DISCOGS_PERSONAL_ACCESS_TOKEN=your_token_here
   "mcpServers": {
     "discogs": {
       "command": "python3",
-      "args": ["/path/to/discogs-mcp-server-python/server.py"],
+      "args": ["/path/to/server.py"],
       "env": {
         "DISCOGS_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
       }
